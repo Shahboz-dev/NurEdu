@@ -1,0 +1,34 @@
+@import '../styles/components/header.css';
+@import '../styles/components/main.css';
+@import '../styles/components/footer.css';
+@import 'fonts.css';
+@import 'reset.css';
+
+
+:root{
+    --whiteColor:#fff;
+    --primaryTextColor: #243976;
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+button a{
+    color: #fff;
+}
+
+button{
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.nav_separator{
+    width: 100%;
+}

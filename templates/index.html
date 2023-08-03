@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{{ url_for('static', filename='styles/style.css')}}" rel="stylesheet" />
+    <!-- <button class="online__education-contact-btn primary_btn">
+        <a href="!#">Darsga registratsiya qilish</a>
+    </button> -->
+    <title>NurEdu</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__content container">
+                <div class="nav__content-info">
+                    <img src="/static/images/nuredu-low-resolution-logo-black-on-transparent-background.png" alt="" class="nav__content-logo">
+                    <div class="nav__content-info-contacts">
+                        <a class="nav__content-info-contacts-number">
+                            +998 90 252 15 06
+                        </a>
+                        <button class="nav__content-info-btn primary_btn">
+                            <a href="/register">Darsga registratsiya qilish</a>
+                        </button>
+                    </div>
+                </div>
+                <hr class="nav_separator">
+                <ul class="nav__content-list">
+                    <li><a href="!#" class="nav__content-list-link">Kim uchun</a></li>
+                    <li><a href="!#"  class="nav__content-list-link">Darslar qanday o'tiladi</a></li>
+                    <li><a href="!#"  class="nav__content-list-link">Ustun tomonlar</a></li>
+                    <li><a href="!#"  class="nav__content-list-link">Narxlar</a></li>
+                    <li><a href="!#"  class="nav__content-list-link">Bog'lanish</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__content container">
+            <img src="/static/images/header__content-bg-left.png" alt="" class="bg-left">
+            <div class="header__content-info">
+                <h2 class="header__content-info-title">
+                    Akademik muvaffaqiyatlarga <span>biz bilan erishing!</span>
+                </h2>
+                <p class="header__content-info-descr">
+                    Prezident maktabi o'quvchilaridan bilim va ko'nikmalarni olish imkoniyatini qo'ldan boy bermang! Faqatgina 2023-2024 o'quv yili davomida Guliston Prezident maktabining yetakchi o'quvchilari tomonidan ishlab chiqilgan kurs davomida o'qing va baxtli yoshlar safida bo'lish imkoniyatingizni oshiring!
+                </p>
+                <h3 class="header__content-info-descr-slogan">
+                    Biz bilan maqsadlarga erishish osonroq!
+                </h3>
+                
+                <button class="primary_btn">
+                    <a href="/register">Darsarga registratsiya qilish</a>
+                </button>
+
+                <div class="or_write">
+                    <p>
+                        yoki yozish: 
+                    </p>
+                    <a href="https://t.me/Abdulhamidnuriddinov"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="20" fill="#2F89CE"/>
+                        <path d="M9.3507 20.3741L13.9488 22.0886L15.7413 27.8557C15.8192 28.2454 16.2868 28.3233 16.5985 28.0895L19.1703 25.9853C19.4041 25.7515 19.7938 25.7515 20.1055 25.9853L24.7036 29.3364C25.0154 29.5702 25.483 29.4144 25.5609 29.0247L28.99 12.6587C29.0679 12.269 28.6782 11.8793 28.2886 12.0352L9.3507 19.3609C8.8831 19.5168 8.8831 20.2182 9.3507 20.3741ZM15.5075 21.2313L24.5477 15.6981C24.7036 15.6201 24.8595 15.8539 24.7036 15.9319L17.2999 22.868C17.0661 23.1018 16.8323 23.4135 16.8323 23.8032L16.5985 25.6736C16.5985 25.9074 16.2089 25.9853 16.1309 25.6736L15.1957 22.2445C14.9619 21.8548 15.1178 21.3872 15.5075 21.2313Z" fill="white"/>
+                      </svg></a>
+                </div>
+            </div>
+            <img src="../static/images/pic_main.svg" alt="" class="header__content-logo">
+        </div>
+    </header>
+    <main class="main">
+        <section class="online__education container">
+            <h2 class="online__education-title">
+                Online ta'lim kim uchun mos?
+            </h2>
+            <div class="online__education-suitable">
+                <div class="online__education-suitable-item">
+                    <img src="../static/images/suitable_item1.svg" alt="">
+                    <h3 class="online__education-suitable-item-title">
+                        Bilim olishni istaydiganlar uchun
+                    </h3>
+                </div>
+                <div class="online__education-suitable-item">
+                    <img src="../static/images/suitable_item2.svg" alt="">
+                    <h3 class="online__education-suitable-item-title">
+                        Sayohat qiladiganlar uchun
+                    </h3>
+                </div>
+                <div class="online__education-suitable-item">
+                    <img src="../static/images/suitable_item3.svg" alt="">
+                    <h3 class="online__education-suitable-item-title">
+                        Oilaviy ta'lim uchun
+                    </h3>
+                </div>
+                <div class="online__education-suitable-item">
+                    <img src="../static/images/suitable_item4.svg" alt="">
+                    <h3 class="online__education-suitable-item-title">
+                        Sport bilan shug'ullanadiganlar uchun
+                    </h3>
+                </div>
+                <div class="online__education-suitable-item">
+                    <img src="../static/images/suitable_item5.svg" alt="">
+                    <h3 class="online__education-suitable-item-title">
+                        Chey davlatda yashayotganlar uchun
+                    </h3>
+                </div>
+            </div>
+            <div class="online__education-discount">
+                <img src="../static/images/discount-girl.svg" alt="">
+                <div class="first__month-discount">
+                    <h3 class="first__month-discount-title">
+                        1-kursni atiga 40 000 so'mga xarid qiling!
+                    </h3>
+                    <p class="first__month-discount-descr">
+                        Kurni xarid qilishga ikkilanyapsizmi? Birinchi kursingizni 60% chegirma bilan xarid qiling!
+                    </p>
+                </div>
+                <div class="online__education-contact">
+                    <button class="online__education-contact-btn primary_btn">
+                        <a href="/register" target="_blank">Darsga registratsiya qilish</a>
+                    </button>
+                    <div class="or_write online__education-contact-write">
+                        <p>
+                            yoki yozish: 
+                        </p>
+                        <a href="https://t.me/Abdulhamidnuriddinov" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="20" fill="#2F89CE"/>
+                            <path d="M9.3507 20.3741L13.9488 22.0886L15.7413 27.8557C15.8192 28.2454 16.2868 28.3233 16.5985 28.0895L19.1703 25.9853C19.4041 25.7515 19.7938 25.7515 20.1055 25.9853L24.7036 29.3364C25.0154 29.5702 25.483 29.4144 25.5609 29.0247L28.99 12.6587C29.0679 12.269 28.6782 11.8793 28.2886 12.0352L9.3507 19.3609C8.8831 19.5168 8.8831 20.2182 9.3507 20.3741ZM15.5075 21.2313L24.5477 15.6981C24.7036 15.6201 24.8595 15.8539 24.7036 15.9319L17.2999 22.868C17.0661 23.1018 16.8323 23.4135 16.8323 23.8032L16.5985 25.6736C16.5985 25.9074 16.2089 25.9853 16.1309 25.6736L15.1957 22.2445C14.9619 21.8548 15.1178 21.3872 15.5075 21.2313Z" fill="white"/>
+                          </svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="teaching__style container">
+            <h2 class="teaching__style-title">
+                Darslar qanday o'tiladi
+            </h2>
+            <div class="teaching__style-items">
+                <div class="teaching__style-item">
+                    <img src="../static/images/teaching-style-item1.svg" alt="" >
+                    <div class="teaching__style-item-info">
+                        <h3 class="teaching__style-item-title">
+                            O'qituvchi bilan online darslar
+                        </h3>
+                        <p class="teaching__style-item-descr">
+                            O'qituvchi bilan qiziqarli darslar, unda har bir bolaga e'tibor beriladi
+                        </p>
+                    </div>
+                </div>
+                <div class="teaching__style-item">
+                    <div class="teaching__style-item-info">
+                        <h3 class="teaching__style-item-title">
+                            O'qituvchi bilan online darslar
+                        </h3>
+                        <p class="teaching__style-item-descr">
+                            O'qituvchi bilan qiziqarli darslar, unda har bir bolaga e'tibor beriladi
+                        </p>
+                    </div>
+                    <img src="../static/images/teaching-style-item2.svg" alt="" >
+                 
+                </div>
+                <div class="teaching__style-item">
+                    <img src="../static/images/teaching-style-item3.svg" alt="" >
+                    <div class="teaching__style-item-info">
+                        <h3 class="teaching__style-item-title">
+                            O'qituvchi bilan online darslar
+                        </h3>
+                        <p class="teaching__style-item-descr">
+                            O'qituvchi bilan qiziqarli darslar, unda har bir bolaga e'tibor beriladi
+                        </p>
+                    </div>
+                </div>
+                <div class="teaching__style-item">
+                    <div class="teaching__style-item-info">
+                        <h3 class="teaching__style-item-title">
+                            O'qituvchi bilan online darslar
+                        </h3>
+                        <p class="teaching__style-item-descr">
+                            O'qituvchi bilan qiziqarli darslar, unda har bir bolaga e'tibor beriladi
+                        </p>
+                    </div>
+                    <img src="../static/images/teaching-style-item4.svg" alt="" >
+                </div>
+            </div>
+        </section>
+        <section class="teachers container">
+            <h2 class="teachers__title">
+                Ustozlar
+            </h2>
+            <div class="teachers__items container">
+                <div class="teachers__list-item">
+                    <h3 class="teachers__list-item-title">
+                        Matematika
+                    </h3>
+                    <p class="teachers__list-item-descr">
+                        Tikanboy Tikanovich
+                    </p>
+                </div>
+                <div class="teachers__list-item">
+                    <h3 class="teachers__list-item-title">
+                        Ingliz tili
+                    </h3>
+                    <p class="teachers__list-item-descr">
+                        Tikanoy O'simlikova
+                    </p>
+                </div>
+                <div class="teachers__list-item">
+                    <h3 class="teachers__list-item-title">
+                        Tarbiya
+                    </h3>
+                    <p class="teachers__list-item-descr">
+                        Tesha Ketmonovich
+                    </p>
+                </div>
+                <div class="teachers__list-item">
+                    <h3 class="teachers__list-item-title">
+                        Fizika
+                    </h3>
+                    <p class="teachers__list-item-descr">
+                        Bolta O'roqovich
+                    </p>
+                </div>
+                <div class="teachers__list-item">
+                    <h3 class="teachers__list-item-title">
+                        Geografiya
+                    </h3>
+                    <p class="teachers__list-item-descr">
+                        Supirgi Sovakovna
+                    </p>
+                </div>
+                <div class="teachers__list-item">
+                    <h3 class="teachers__list-item-title">
+                        Informatika
+                    </h3>
+                    <p class="teachers__list-item-descr">
+                        Mix Omburovich
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="requests container">
+            <form class="requests__form" method="POST" action="{{url_for('addrec')}}">
+                <div class="request__form-input">
+                    <div class="request__form-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <g clip-path="url(#clip0_318_32652)">
+                              <path d="M12.1914 12C14.4014 12 16.1914 10.21 16.1914 8C16.1914 5.79 14.4014 4 12.1914 4C9.98141 4 8.19141 5.79 8.19141 8C8.19141 10.21 9.98141 12 12.1914 12ZM12.1914 14C9.52141 14 4.19141 15.34 4.19141 18V20H20.1914V18C20.1914 15.34 14.8614 14 12.1914 14Z" fill="#323232"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_318_32652">
+                                <rect width="24" height="24" fill="white" transform="translate(0.191406)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </div>
+                    <input type="text" placeholder="Ism" name="name">
+                </div>
+                <div class="request__form-input">
+                    <div class="request__form-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <g clip-path="url(#clip0_318_32646)">
+                              <path d="M7.27234 10.79C8.71234 13.62 11.0323 15.93 13.8623 17.38L16.0623 15.18C16.3323 14.91 16.7323 14.82 17.0823 14.94C18.2023 15.31 19.4123 15.51 20.6523 15.51C21.2023 15.51 21.6523 15.96 21.6523 16.51V20C21.6523 20.55 21.2023 21 20.6523 21C11.2623 21 3.65234 13.39 3.65234 4C3.65234 3.45 4.10234 3 4.65234 3H8.15234C8.70234 3 9.15234 3.45 9.15234 4C9.15234 5.25 9.35234 6.45 9.72234 7.57C9.83234 7.92 9.75234 8.31 9.47234 8.59L7.27234 10.79Z" fill="#323232"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_318_32646">
+                                <rect width="24" height="24" fill="white" transform="translate(0.652344)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </div>
+                    <input type="number" placeholder="Telefon raqami" name="number">
+                </div>
+                <input type="submit" class="external_register primary_btn" value="Kiritish">
+            </form >
+            <div class="requests__content">
+                <h3 class="requests__content-title">
+                    Siz xali ham <span>ikkalanyapsizmi?</span>
+                </h3>
+                <p class="requests__content-descr">
+                    Yangi narsalarga o'rganish juda qiyin bo'lishi mumkin. Buni tushingan holda, biz sizni qiynagan barcha savollarga javob berishga tayyormiz! Shunchaki ma'lumotlaringizni kiriting va menejerimiz bilan suhbatlashing
+                </p>
+                <img src="../static/images/request-img.png" alt="" class="request-img">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content container">
+            <img src="../static/images/nuredu-low-resolution-logo-black-on-transparent-background.png" alt="" class="footer-img">
+            <div class="footer__social-media">
+                <h2 class="footer__social-media-title">
+                    Ijtimoiy tarmoqlarimiz
+                </h2>
+                <ul class="footer__social-media-list">
+                    <li>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 45 45" fill="none">
+                            <circle cx="22.5" cy="22.5" r="22.5" fill="#2F89CE"/>
+                            <path d="M10.52 22.9208L15.6929 24.8497L17.7094 31.3377C17.7971 31.776 18.3231 31.8637 18.6738 31.6007L21.5671 29.2335C21.8301 28.9704 22.2685 28.9704 22.6192 29.2335L27.7921 33.0035C28.1428 33.2665 28.6688 33.0912 28.7565 32.6528L32.6142 14.241C32.7019 13.8026 32.2635 13.3642 31.8251 13.5396L10.52 21.7811C9.99398 21.9564 9.99398 22.7455 10.52 22.9208ZM17.4464 23.8853L27.6167 17.6603C27.7921 17.5726 27.9674 17.8357 27.7921 17.9234L19.4629 25.7265C19.1999 25.9895 18.9369 26.3402 18.9369 26.7786L18.6738 28.8828C18.6738 29.1458 18.2355 29.2335 18.1478 28.8828L17.0957 25.025C16.8326 24.5867 17.008 24.0606 17.4464 23.8853Z" fill="white"/>
+                        </svg></a>
+                    </li>
+                    <li>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="34" height="35" viewBox="0 0 34 35" fill="none">
+                            <g clip-path="url(#clip0_4717_80)">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M25.5 18.1418C25.5 19.5177 25.33 20.8936 25.33 20.8936C25.33 20.8936 25.1643 22.0645 24.6543 22.5809C24.0083 23.2577 23.2836 23.2609 22.9511 23.3002C20.5721 23.4723 17 23.4776 17 23.4776C17 23.4776 12.58 23.4373 11.22 23.3076C10.8418 23.2364 9.99175 23.2577 9.34575 22.5809C8.83575 22.0645 8.67 20.8936 8.67 20.8936C8.67 20.8936 8.5 19.5177 8.5 18.1418V16.8519C8.5 15.4759 8.67 14.1011 8.67 14.1011C8.67 14.1011 8.83575 12.9291 9.34575 12.4128C9.99175 11.7359 10.7164 11.7327 11.0489 11.6934C13.4279 11.5213 16.9968 11.5213 16.9968 11.5213H17.0032C17.0032 11.5213 20.5721 11.5213 22.9511 11.6934C23.2836 11.7327 24.0083 11.7359 24.6543 12.4128C25.1643 12.9291 25.33 14.1011 25.33 14.1011C25.33 14.1011 25.5 15.4759 25.5 16.8519V18.1418ZM17 0.5C7.61069 0.5 0 8.11069 0 17.5C0 26.8883 7.61069 34.5 17 34.5C26.3893 34.5 34 26.8883 34 17.5C34 8.11069 26.3893 0.5 17 0.5Z" fill="#EA412C"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2452 19.7047L19.8384 17.3247L15.2441 14.9277L15.2452 19.7047Z" fill="#EA412C"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_4717_80">
+                                <rect width="34" height="34" fill="white" transform="translate(0 0.5)"/>
+                              </clipPath>
+                            </defs>
+                          </svg></a>
+                    </li>
+                    <li>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="34" height="35" viewBox="0 0 34 35" fill="none">
+                            <g clip-path="url(#clip0_4717_88)">
+                              <path d="M17 0.5C7.61115 0.5 0 8.11115 0 17.5C0 26.8888 7.61115 34.5 17 34.5C26.3888 34.5 34 26.8888 34 17.5C34 8.11115 26.3888 0.5 17 0.5ZM26.9763 23.7117L24.0438 23.7519C24.0438 23.7519 23.413 23.8772 22.5854 23.3046C21.4871 22.5507 20.4537 20.5935 19.6485 20.844C18.8432 21.0945 18.8567 22.8572 18.8567 22.8572C18.8592 23.0639 18.7958 23.2661 18.6755 23.4343C18.5062 23.5794 18.2974 23.6705 18.076 23.696H16.7764C16.7764 23.696 13.8685 23.8683 11.3297 21.2154C8.53812 18.3343 6.07982 12.5789 6.07982 12.5789C6.07982 12.5789 5.93506 12.2451 6.09324 12.0197C6.22997 11.8249 6.56718 11.8039 6.73745 11.796C7.47143 11.7617 9.67665 11.7759 9.67665 11.7759C9.86113 11.7713 9.98511 11.781 10.2135 11.881C10.4098 11.9781 10.5587 12.1226 10.6542 12.3552C10.9934 13.2001 11.3872 14.022 11.833 14.8158C13.1438 17.0817 13.7545 17.576 14.1996 17.3344C14.846 16.981 14.647 14.1335 14.647 14.1335C14.647 14.1335 14.647 13.0979 14.3204 12.6393C14.0745 12.3521 13.7278 12.1704 13.3518 12.1316C13.1751 12.1069 13.4659 11.6976 13.8417 11.5142C14.4054 11.2368 15.4031 11.2368 16.5796 11.2368C17.0974 11.2173 17.6153 11.27 18.1185 11.3934C19.2012 11.6551 18.8343 12.6617 18.8343 15.0819C18.8343 15.8559 18.6934 16.9475 19.2526 17.3188C19.4942 17.4731 20.0803 17.3412 21.5521 14.8448C22.0216 14.0187 22.4291 13.159 22.7712 12.2724C22.837 12.1315 22.937 12.0093 23.062 11.9168C23.1941 11.851 23.3427 11.8253 23.4892 11.8429L26.7908 11.8205C26.7908 11.8205 27.7817 11.702 27.9428 12.1516C28.1038 12.6012 27.5714 13.7174 26.2226 15.5068C24.0082 18.4594 23.7621 18.191 25.6008 19.8888C27.3567 21.5194 27.7214 22.3135 27.7817 22.4119C28.5108 23.6155 26.9763 23.7117 26.9763 23.7117Z" fill="#4C75A3"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_4717_88">
+                                <rect width="34" height="34" fill="white" transform="translate(0 0.5)"/>
+                              </clipPath>
+                            </defs>
+                          </svg></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__details">
+                <div class="footer__detail">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
+                        <g clip-path="url(#clip0_4717_98)">
+                          <path d="M23.0002 3.83325C15.5827 3.83325 9.5835 9.83242 9.5835 17.2499C9.5835 27.3124 23.0002 42.1666 23.0002 42.1666C23.0002 42.1666 36.4168 27.3124 36.4168 17.2499C36.4168 9.83242 30.4177 3.83325 23.0002 3.83325ZM23.0002 22.0416C20.3552 22.0416 18.2085 19.8949 18.2085 17.2499C18.2085 14.6049 20.3552 12.4583 23.0002 12.4583C25.6452 12.4583 27.7918 14.6049 27.7918 17.2499C27.7918 19.8949 25.6452 22.0416 23.0002 22.0416Z" fill="#243976"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_4717_98">
+                            <rect width="46" height="46" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p class="footer__detail-text">
+                        Guliston shahri, Navoiy shoh ko’chasi, Shodlik mahallasi 260 A uy
+                      </p>
+                </div>
+                <div class="footer__detail">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
+                        <path d="M30.6673 1.91699H15.334C12.1523 1.91699 9.58398 4.48533 9.58398 7.66699V38.3337C9.58398 41.5153 12.1523 44.0837 15.334 44.0837H30.6673C33.849 44.0837 36.4173 41.5153 36.4173 38.3337V7.66699C36.4173 4.48533 33.849 1.91699 30.6673 1.91699ZM26.834 40.2503H19.1673V38.3337H26.834V40.2503ZM33.0632 34.5003H12.9382V7.66699H33.0632V34.5003Z" fill="#243976"/>
+                      </svg>
+                    <p class="footer__detail-text">
+                        +998 90 252 15 06
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

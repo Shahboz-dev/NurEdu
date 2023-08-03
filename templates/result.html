@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{{ url_for('static', filename='styles/reg_res.css')}}" rel="stylesheet" />
+    <link type="text/css" href="{{ url_for('static', filename='styles/style.css')}}" rel="stylesheet" />
+    <title>Result</title>
+    <style>
+        .prompt-text{
+            color: #243976;
+            font-family: Gotham Pro;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 20.8px */
+            max-width: 400px;
+            text-align: center;
+        }
+        .go_home{
+            margin-top: 30px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="prompt">{{msg}}</h1>
+        <p class="prompt-text">
+            Sizning ma'lumotlaringiz qabul qilindi! Tez orada biz sizga SMS xabari orqali bo'lib o'tadigan ZOOM uchrashuvi haqida ma'lumot berib o'tamiz!
+        </p>
+        <a href="/" class="go_home">GO TO HOME</a>
+    </div>
+</body>
+</html>

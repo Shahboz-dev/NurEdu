@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{{ url_for('static', filename='styles/reg_res.css')}}" rel="stylesheet" />
+    <link type="text/css" href="{{ url_for('static', filename='styles/style.css')}}" rel="stylesheet" />
+    <title>Registration</title>
+</head>
+<body>
+    <form method="POST" action="{{url_for('addrec')}}" class="register__form">
+        <h3 class="prompt">
+            Ma'lumotlaringizni kiriting
+        </h3>
+        <input type="text" name="name" class="register-input" placeholder="Ismingiz"><br>
+        <input type="text" class="register-input" name ="number" placeholder="Telefon raqami"><br>
+        <input type="submit" class="primary_btn" value="Kiritish"><br>
+    </form>
+
+</body>
+</html>
